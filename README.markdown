@@ -1,28 +1,5 @@
-This is example client for [PDC] that provides somewhat comfortable to view and
-edit contacts for components.
+# Deprecated
 
-[PDC]: https://github.com/release-engineering/product-definition-center
+This is a prototype of a contact browser. The real thing is currently maintained by PDC team at [product-definition-center/pdc-contact-browser].
 
-
-# Usage
-
-Hit the cog buggon in the top right corner, set up your servers and enjoy.
-
-
-# Development
-
-Install `npm` (probably from your package manager).
-
-    $ npm install
-    $ make
-    # Builds a JS bundle ...
-    # Open index.html in browser for testing
-    
-    $ make watch
-    # Automatically rebuild the bundle
-
-    $ make dist
-    # create single file version in dist/index.html
-
-If you did not install node module globally, you need to add
-`node_modules/.bin` to your `PATH`.
+[product-definition-center/pdc-contact-browser]: https://github.com/product-definition-center/pdc-contact-browser
